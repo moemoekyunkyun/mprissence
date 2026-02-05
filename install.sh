@@ -57,7 +57,7 @@ install_system_deps() {
             CMD="sudo dnf install -y"
             PACKAGES="python3 python3-pip python3-devel dbus-devel glib2-devel gcc pkg-config"
             ;;
-        arch|manjaro|endeavouros)
+        arch|manjaro|endeavouros|cachyos)
             CMD="sudo pacman -S --noconfirm"
             PACKAGES="python python-pip dbus-glib base-devel"
             ;;
